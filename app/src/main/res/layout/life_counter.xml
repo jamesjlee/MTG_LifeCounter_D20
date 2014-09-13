@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="landscape">
+
+    <Button
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="Gain"
+        android:id="@+id/gainP1"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="20"
+        android:gravity="center"
+        android:id="@+id/lifeCountP1"
+        android:layout_gravity="center_vertical"
+        android:textSize="50dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="Lose"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/loseP1" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/reset"
+        android:layout_gravity="bottom" />
+
+    <Button
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="Gain"
+        android:id="@+id/gainP2"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="20"
+        android:gravity="center"
+        android:id="@+id/lifeCountP2"
+        android:layout_gravity="center_vertical"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="Lose"
+        android:id="@+id/loseP2"
+        android:layout_gravity="center_vertical" />
+
+</LinearLayout>
